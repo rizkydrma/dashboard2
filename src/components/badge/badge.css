@@ -1,0 +1,65 @@
+.badge {
+  padding: 4px 8px;
+  color: var(--txt-white);
+  border-radius: 10px;
+  box-shadow: var(--box-shadow);
+}
+
+.badge:hover {
+  cursor: pointer;
+}
+
+.badge-danger,
+.badge-red {
+  background-color: var(--main-color-red);
+}
+.badge-success,
+.badge-green {
+  background-color: var(--main-color-green);
+}
+.badge-primary,
+.badge-blue {
+  background-color: var(--main-color-blue);
+}
+.badge-warning,
+.badge-orange {
+  background-color: var(--main-color-orange);
+}
+
+.badge-brown {
+  background-color: var(--main-color-brown);
+}
+
+.badge-yellow {
+  background-color: var(--main-color-yellow);
+}
+
+.badge-cyan {
+  background-color: var(--main-color-cyan);
+}
+
+.badge-light-brown {
+  background-color: var(--second-color-brown);
+}
+
+.badge-light-yellow {
+  background-color: var(--second-color-yellow);
+}
+
+.badge-light-cyan {
+  background-color: var(--second-color-cyan);
+}
+.badge-light-red {
+  background-color: var(--second-color-red);
+}
+
+.badge-light-blue {
+  background-color: var(--second-color-blue);
+}
+
+.badge-light-green {
+  background-color: var(--second-color-green);
+}
+.badge-light-orange {
+  background-color: var(--second-color-orange);
+}

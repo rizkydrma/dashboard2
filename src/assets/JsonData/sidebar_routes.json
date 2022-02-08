@@ -1,0 +1,57 @@
+[
+  {
+    "display_name": "Dashboard",
+    "route": "/",
+    "icon": "bx bx-category-alt",
+    "policy": ["admin"]
+  },
+  {
+    "display_name": "Products",
+    "route": "/products",
+    "icon": "bx bx-package",
+    "policy": ["admin"]
+  },
+  {
+    "display_name": "Orders",
+    "route": "/orders",
+    "icon": "bx bx-cart",
+    "policy": ["admin", "waiter", "kitchen"]
+  },
+
+  {
+    "display_name": "categories",
+    "route": "/categories",
+    "icon": "bx bx-list-ol",
+    "policy": ["admin"]
+  },
+  {
+    "display_name": "Employee",
+    "route": "/employee",
+    "icon": "bx bxs-user-rectangle",
+    "policy": ["admin"]
+  },
+  {
+    "display_name": "Customers",
+    "route": "/customers",
+    "icon": "bx bxs-user-circle",
+    "policy": ["admin"]
+  },
+  {
+    "display_name": "Payments",
+    "route": "/payments",
+    "icon": "bx bxs-badge-dollar",
+    "policy": ["admin", "cashier"]
+  },
+  {
+    "display_name": "Analytics",
+    "route": "/analytics",
+    "icon": "bx bxs-analyse",
+    "policy": ["admin"]
+  },
+  {
+    "display_name": "Report",
+    "route": "/report",
+    "icon": "bx bxs-report",
+    "policy": ["admin"]
+  }
+]

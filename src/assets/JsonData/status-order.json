@@ -1,0 +1,18 @@
+[
+  {
+    "name": "preparing",
+    "color": "primary",
+    "policy": ["kitchen", "admin"]
+  },
+
+  {
+    "name": "delivery",
+    "color": "warning",
+    "policy": ["kitchen", "admin"]
+  },
+  {
+    "name": "delivered",
+    "color": "success",
+    "policy": ["waiter", "admin"]
+  }
+]

@@ -1,0 +1,203 @@
+.container {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 50%;
+}
+
+.login__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login__logo > img {
+  height: 75px;
+  width: 75px;
+}
+
+.login__logo > span {
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--main-color-red);
+}
+
+.aggresive-text {
+  text-align: center;
+  color: rgb(20, 20, 20);
+  font-weight: 500;
+}
+
+.form-group {
+  margin: 20px 0;
+}
+form.form-login {
+  background: rgba(255, 255, 255, 0.4);
+  padding: 3em;
+  min-height: 320px;
+  border-radius: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(5px);
+  box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+form.form-login p {
+  font-weight: 500;
+  color: #fff;
+  opacity: 0.7;
+  font-size: 1.4rem;
+  margin-top: 0;
+  margin-bottom: 60px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+form.form-login a {
+  text-decoration: none;
+  color: #ddd;
+  font-size: 12px;
+}
+form.form-login a:hover {
+  text-shadow: 2px 2px 6px #000 40;
+}
+form.form-login a:active {
+  text-shadow: none;
+}
+form.form-login input {
+  background: transparent;
+  width: 100%;
+  padding: 0.8em;
+  margin-top: 5px;
+  border: none;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 5000px;
+  backdrop-filter: blur(5px);
+  box-shadow: 4px 4px 60px rgba(0, 0, 0, 0.2);
+  color: black;
+  font-family: Montserrat, sans-serif;
+  font-weight: 500;
+  font-size: 0.9rem;
+  transition: all 0.2s ease-in-out;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+form.form-login input:hover {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+form.form-login input[type='email']:focus,
+form.form-login input[type='password']:focus {
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 4px 4px 60px 8px rgba(0, 0, 0, 0.2);
+}
+form.form-login input[type='button'] {
+  margin-top: 10px;
+  width: 150px;
+  font-size: 1rem;
+}
+form.form-login input[type='button']:hover {
+  cursor: pointer;
+}
+form.form-login input[type='button']:active {
+  background: rgba(255, 255, 255, 0.2);
+}
+form.form-login:hover {
+  margin: 4px;
+}
+form.form-login::placeholder {
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  color: black;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+.drop {
+  background: rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  box-shadow: 10px 10px 60px -8px rgba(0, 0, 0, 0.2);
+  position: absolute;
+  transition: all 0.2s ease;
+}
+.drop-1 {
+  height: 80px;
+  width: 80px;
+  top: -20px;
+  left: -40px;
+  z-index: -1;
+}
+.drop-2 {
+  height: 80px;
+  width: 80px;
+  bottom: -30px;
+  right: -10px;
+}
+.drop-3 {
+  height: 100px;
+  width: 100px;
+  bottom: 120px;
+  right: -50px;
+  z-index: -1;
+}
+.drop-4 {
+  height: 120px;
+  width: 120px;
+  top: -60px;
+  right: -60px;
+}
+.drop-5 {
+  height: 60px;
+  width: 60px;
+  bottom: 170px;
+  left: 90px;
+  z-index: -1;
+}
+a,
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+
+@media only screen and (max-width: 640px) {
+  form.form-login {
+    width: 90vw;
+    padding: 1.5em;
+  }
+
+  .drop-1 {
+    height: 40px;
+    width: 40px;
+    top: -20px;
+    left: -40px;
+    z-index: -1;
+  }
+  .drop-2 {
+    height: 40px;
+    width: 40px;
+    bottom: -30px;
+    right: -10px;
+  }
+  .drop-3 {
+    height: 50px;
+    width: 50px;
+    bottom: 120px;
+    right: 50px;
+    z-index: -1;
+  }
+  .drop-4 {
+    height: 60px;
+    width: 60px;
+    top: -60px;
+    right: 10px;
+  }
+  .drop-5 {
+    height: 30px;
+    width: 30px;
+    bottom: 170px;
+    left: 90px;
+    z-index: -1;
+  }
+}

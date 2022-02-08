@@ -1,0 +1,12 @@
+[
+  {
+    "name": "waiting_payment",
+    "color": "warning",
+    "content": "waiting"
+  },
+  {
+    "name": "done",
+    "color": "success",
+    "content": "done"
+  }
+]
