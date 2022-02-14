@@ -1,7 +1,7 @@
 import { io } from 'socket.io-client';
-import { config } from '../config';
+// import { config } from '../config';
 
-const socket = io(`${config.api_host}`, {
+const socket = io(`wss://serverrosid.herokuapp.com/`, {
   autoConnect: true,
   pingTimeout: 30000,
   reconnection: true,
